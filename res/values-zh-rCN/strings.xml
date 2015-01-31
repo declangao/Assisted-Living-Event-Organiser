@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu item text [CHAR LIMIT=NONE] -->
+    <string name="accounts">Accounts</string>
+
+    <!-- Dialog button [CHAR LIMIT=NONE] -->
+    <string name="add_account">Add account</string>
+
+    <!--  Name of the application in the launcher [CHAR LIMIT=NONE] -->
+    <string name="app_name">辅助生活事件管理器</string>
+
+    <!-- Dialog title text [CHAR LIMIT=NONE] -->
+    <string name="attention">Attention</string>
+
+    <!-- Button text [CHAR LIMIT=NONE] -->
+    <string name="connect">Connect</string>
+
+    <!-- Message text for "Connect" screen [CHAR LIMIT=NONE] -->
+    <string name="connect_text">This application requests permission to connect your mobile device to the cloud.</string>
+
+    <!-- Header text for "Connect" screen [CHAR LIMIT=NONE] -->
+    <string name="connect_to_the_cloud">Connect To The Cloud</string>
+
+    <!-- Header text for "Connected" screen [CHAR LIMIT=NONE] -->
+    <string name="connected_to_the_cloud">Connected To The Cloud</string>
+
+    <!-- Message text [CHAR LIMIT=NONE] -->
+    <string name="contacting_server">Contacting server...</string>
+
+    <!-- Button text [CHAR LIMIT=NONE] -->
+    <string name="disconnect">Disconnect</string>
+
+    <!-- Informational text for "Connected" screen with placeholder for account name [CHAR LIMIT=NONE] -->
+    <string name="disconnect_text">This device is currently connected to the cloud as %1$s.</string>
+
+    <!-- Footer text for "Connect" screen [CHAR LIMIT=NONE] -->
+    <string name="do_you_want_to_connect">Do you want to connect?</string>
+
+    <!-- Footer text for "Disconnect" screen [CHAR LIMIT=NONE] -->
+    <string name="do_you_want_to_disconnect">Do you want to disconnect?</string>
+
+    <!-- Initial "hello, world" informational message [CHAR LIMIT=NONE] -->
+    <string name="hello_world_info_text">Press the \"Say Hello\" button to receive a message from the App Engine server.</string>
+
+    <!-- Initial "hello, world" response message [CHAR LIMIT=NONE] -->
+    <string name="hello_world_text"></string>
+
+    <!-- Dialog message text [CHAR LIMIT=NONE] -->
+    <string name="needs_account">To receive notifications from this app, you must first create an account.</string>
+
+    <!-- Notification message [CHAR LIMIT=NONE] -->
+    <string name="registration_error">Failed to register/unregister %1$s.</string>
+
+    <!-- Notification message [CHAR LIMIT=NONE] -->
+    <string name="registration_succeeded">Registered %1$s for C2DM messaging.</string>
+
+    <!-- Button text [CHAR LIMIT=NONE] -->
+    <string name="say_hello">Say Hello</string>
+
+    <!-- List view header text [CHAR LIMIT=NONE] -->
+    <string name="select_account">Select the account you wish to authorize:</string>
+
+    <!-- Dialog button text [CHAR LIMIT=NONE] -->
+    <string name="skip">Skip</string>
+
+    <!-- Notification message [CHAR LIMIT=NONE] -->
+    <string name="unregistration_succeeded">Unegistered %1$s for C2DM messaging.</string>
+    
+    <string name="event_description">事件描述:</string>
+    <string name="no_new_event">没有新的事件来显示</string>
+    <string name="event_due_date">事件到期时间:</string>
+    <string name="event_desc">事件描述</string>
+    <string name="event_timedate">事件日期和时间</string>
+    <string name="remind_me_later">稍后提醒我</string>
+    <string name="acknowledge">接受</string>
+    <string name="reject">拒绝</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_service_control">服务管理</string>
+    <string name="start_service">开始服务</string>
+    <string name="stop_service">停止服务</string>
+    <string name="menu_torch">手电筒</string>
+    <string name="menu_about">关于</string>
+    <string name="service_started">服务启动</string>
+    <string name="service_stopped">服务停止</string>
+    <string name="about_title">关于这个程序</string>
+    <string name="about_msg">这是 ITB7301“辅助生活事件管理器”项目的客户端程序。\n\n学生: 高自强 (Declan)\n监管人: Tim Hunt</string>
+    <string name="about_ok">确定</string>
+    <string name="progress_title">请稍等...</string>
+    <string name="progress_msg">正在从服务器下载事件...</string>
+    <string name="toast_download_finished">事件下载完毕</string>
+    <string name="no_internet_title">错误</string>
+    <string name="no_internet_msg">没有网络连接\n你需要一个可用的3G或Wi-Fi连接才能使用这个程序。</string>
+    <string name="no_internet_ok">确定</string>
+    <string name="torch_quit">触摸屏幕任意位置返回主界面</string>
+    
+    <string name="pref_app_settings">程序设置</string>
+    <string name="pref_ringtone">铃声选项</string>
+    <string name="pref_ringtone_summary">选择警报铃声</string>
+    <string name="pref_autodownload">启动程序时自动下载事件</string>
+    <string name="pref_autodownload_summary">关掉这个选项如果你想手动下载事件</string>
+    <string name="pref_refersh_interval">刷新事件间隔</string>
+    <string name="pref_refersh_interval_summary">设置两次刷新操作的事件间隔</string>
+    <string name="pref_refersh_interval_title">输入数字，单位为小时</string>
+    <string name="pref_email">电子邮箱</string>
+    <string name="pref_email_summary">如果不想用GMail的话，请设置你其他的电子邮箱</string>
+    <string name="pref_email_title">输入一个新的电子邮箱地址</string>
+    <string name="pref_carer_settings">看护者设置</string>
+    <string name="pref_carer_management">看护者管理</string>
+    <string name="pref_carer_management_summary">管理看护者和电子邮箱通知</string>
+    <string name="pref_carer_management_title">输入电子邮箱地址</string>
+    
+    <string name="pref_delay_time">延迟时间</string>
+    <string name="pref_delay_time_summary">设置稍后提醒我的延迟时间</string>
+    <string name="pref_delay_time_title">输入一个数字，单位为分钟：</string>
+    <string name="pref_email_msg">电子邮件信息</string>
+    <string name="pref_email_msg_summary">你想要发送非看护者的电子邮件信息</string>
+    <string name="pref_email_msg_title">输入信息：</string>
+    <string name="pref_email_subject">电子邮件主题</string>
+    <string name="pref_email_subject_summary">你想要发送给看护者的电子邮件主题</string>
+    <string name="pref_email_subject_title">输入主题：</string>
+    <string name="menu_carer_man">看护者管理</string>
+    <string name="menu_carer_add">添加看护者</string>
+    <string name="menu_carer_set_time">设置发送时间</string>
+    <string name="layout_edit_carer_name">姓名:   </string>
+    <string name="layout_edit_carer_name_hint">看护者的名字</string>
+    <string name="layout_edit_carer_email">电子邮箱: </string>
+    <string name="layout_edit_carer_email_hint">看护者的电子邮箱</string>
+    <string name="layout_edit_carer_repeat">重复间隔: </string>
+    <string name="layout_edit_carer_repeat_hint">重复间隔为多少天？</string>
+    <string name="layout_edit_carer_btn">保存并启用电子邮件通知</string>
+    <string name="layout_carer_list">看护者名单</string>
+    <string name="layout_add_carer_add">添加</string>
+    <string name="layout_emailalarm_btn">点击并发送邮件</string>
+    <string name="alarmreceiver_ack">已发送反馈</string>
+    <string name="email_alarm_receiver_title">选择一个电子邮件程序</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_app_settings">
+        
+        <RingtonePreference
+			android:title="@string/pref_ringtone"
+			android:key="ringtone"
+			android:summary="@string/pref_ringtone_summary"
+			android:showDefault="true"
+			android:showSilent="true"
+		/>
+        <CheckBoxPreference
+    	    android:key="autoDownload"
+			android:title="@string/pref_autodownload"
+			android:summary="@string/pref_autodownload_summary"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+		<EditTextPreference
+	        android:key="interval"
+	        android:title="@string/pref_refersh_interval"
+	        android:summary="@string/pref_refersh_interval_summary"
+	        android:dialogTitle="@string/pref_refersh_interval_title">
+    	</EditTextPreference>
+    	<EditTextPreference
+	        android:key="delay"
+	        android:title="@string/pref_delay_time"
+	        android:summary="@string/pref_delay_time_summary"
+	        android:dialogTitle="@string/pref_delay_time_title">
+    	</EditTextPreference>
+    	
+    </PreferenceCategory>
+    
+</PreferenceScreen>
