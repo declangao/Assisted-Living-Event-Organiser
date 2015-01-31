@@ -33,4 +33,4 @@ Please be aware, the project has long been discontiuned and the source code is b
 ## License
 Copyright Declan Gao [@DeclanGao](http://twitter.com/DeclanGao/) © 2012.
 
-Licensed under GNU PGL License.
+Licensed under GNU GPL License.
