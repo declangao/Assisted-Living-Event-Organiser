@@ -6,7 +6,7 @@ The traditional way of event organising for assisted living environment is mainl
 The idea of this project is to deliver a system which consists of a cloud based server application and a client application running on mobile devices. Carer can create events for seniors on the server application via a web interface (Google App Engine). Client application on senior’s mobile device reads events from the server and reminds them when the time comes. Also, the client application can record senior’s response to the event and report back to the server for carers to review. 
 
 ## Technical Details
-Written back in 2012, this is a legacy app wwhen Android 4 was relatively new. To create a consistent look and feel across both Android 2.x and Android 4 platforms, I used [ActionBarSherlock](http://actionbarsherlock.com/) third-party GUI library. RequestFactory was used to communicate with Google App Engine.
+Written back in 2012, this is a legacy app when Android 4 was relatively new. To create a consistent look and feel across both Android 2.x and Android 4 platforms, I used [ActionBarSherlock](http://actionbarsherlock.com/) third-party GUI library. RequestFactory was used to communicate with Google App Engine.
 
 ## Note
 Due to the contract with my client, I cannot release the source code for the Google App Engine server side web application written with GWT. This is only the client side Android app! Although you can still try the demo web app [here](http://aleowintec.appspot.com/). 
